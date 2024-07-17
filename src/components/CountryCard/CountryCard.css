@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap');
+
+.country-card {
+    border-radius: 2rem;
+    background-image: url(../../assets/bgpassport.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    width: 60vw;
+    padding: 1rem;
+    line-height: 2.5rem;
+    cursor: default;
+
+    @media (min-width: 993px) {
+        -webkit-box-shadow: 5px 5px 0px 0px #000000, 10px 10px 0px 0px #151515, 15px 15px 0px 0px #343434, 20px 20px 0px 0px #4a4a4a, 25px 25px 0px 0px #575757, 5px 5px 15px 5px rgba(0,0,0,0); 
+        box-shadow: 5px 5px 0px 0px #151515, 10px 10px 0px 0px #343434, 15px 15px 0px 0px #4a4a4a, 20px 20px 0px 0px #5d5d5d, 5px 5px 15px 5px rgba(0,0,0,0);
+        transition: all ease 700ms;
+    }
+
+    @media (max-width: 992px) {
+        width: 90vw;
+        box-shadow: 
+        0 6px 12px rgba(0, 0, 0, 0.2),
+        0 8px 24px rgba(0, 0, 0, 0.25),
+        0 10px 10px rgba(0, 0, 0, 0.3),
+        0 6px 12px rgba(0, 0, 0, 0.35);
+    }
+
+    h1, h2, h3 {
+        font-size: 2rem;
+        line-height: 4rem;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: bold;
+        font-family: "Kadwa", serif;
+    }
+
+    h1 {
+        font-size: 4rem;
+        margin-bottom: 1rem;
+        letter-spacing: .3rem;
+    }
+
+    h2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: .5rem;
+    }
+
+    .info {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 3rem 0;
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+            row-gap: 2rem;
+        }
+
+        img {
+            width: 25rem;
+            height: auto;
+            -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+            box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+        }
+
+        .list {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            align-items: center;
+            justify-content: center;
+            column-gap: 4rem;
+            row-gap: 1rem;
+
+            .item {
+                max-width: 20rem;
+
+                span {
+                    font-weight: 400;
+                    font-family: "Kadwa", serif;
+                    font-size: 1.3rem;
+                }
+
+                p {
+                    font-weight: bold;
+                    font-size: 1.6rem;
+                    font-family: "Kadwa", serif;
+                }
+            }
+        }
+    }
+}

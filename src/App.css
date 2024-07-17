@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@400;600;700;800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -10,8 +13,14 @@ html {
 
 body {
     font-size: 16px;
+    font-family: "K2D", sans-serif;
 }
 
 h1, h2 {
     font-weight: bold;
+    font-family: "DynaPuff", system-ui;
+}
+
+p, a, button, span {
+    font-family: "K2D", sans-serif;
 }
