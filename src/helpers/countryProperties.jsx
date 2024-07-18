@@ -15,7 +15,13 @@ export const getCurrencies = (data) => {
   }
   
 export const getCapital = (data) => {
-    return data.capital && data.capital.length > 1 ? data.capital.slice(0, 1) : data.capital
+    if (data.capital && data.capital.length > 1) {
+        return data.capital.slice(0, 1)
+    } else if (data.capital && data.capital.length === 1) {
+        return data.capital
+    }
+
+    return " "
 }
 
 export const getTimezones = (data) => {
