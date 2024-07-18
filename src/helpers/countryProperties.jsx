@@ -1,7 +1,19 @@
 export const getCurrencies = (data) => {
-    return data.currencies ? Object.keys(data.currencies).map(key => data.currencies[key]) : []
-}
-
+    const currencies = data.currencies ? Object.keys(data.currencies).map(key => data.currencies[key]) : []
+  
+    if (currencies.length === 0) {
+      return "Not found"
+    }
+  
+    const validCurrencies = currencies.filter(currency => currency.name && currency.symbol)
+  
+    if (validCurrencies.length > 0) {
+      return validCurrencies
+    }
+  
+    return "Not found"
+  }
+  
 export const getCapital = (data) => {
     return data.capital && data.capital.length > 1 ? data.capital.slice(0, 1) : data.capital
 }

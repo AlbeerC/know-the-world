@@ -1,0 +1,8 @@
+.country-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    align-items: stretch;
+    row-gap: 4rem;
+    margin: 5rem 0;
+}

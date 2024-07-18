@@ -1,4 +1,5 @@
-import { getCapital, getCurrencies, getTimezones, getLanguages } from '../../helpers/countryProperties'
+import './CountryList.css'
+import { getCapital, getCurrencies, getLanguages } from '../../helpers/countryProperties'
 import CountryCard from '../CountryCard/CountryCard'
 
 function CountryList ( {data} ) {
@@ -10,11 +11,11 @@ function CountryList ( {data} ) {
                     name={country.name.common}
                     capital={getCapital(country)}
                     currencies={getCurrencies(country)}
-                    timezones={getTimezones(country)}
                     languages={getLanguages(country)}
                     flag={country.flags.png}
                     alt={country.flags.alt}
                     population={country.population}
+                    area={country.area}
                 />
             ))}
         </section>
