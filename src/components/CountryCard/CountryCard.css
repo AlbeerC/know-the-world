@@ -9,6 +9,10 @@
     background-color: #eeeeee;
     transition: all ease 700ms;
 
+    @media (max-width: 600px) {
+        width: 18rem;
+    }
+
     &:hover {
         transform: scale(1.03);
     }
@@ -16,6 +20,10 @@
     img {
         max-width: 60%;
         max-height: 8rem;
+
+        @media (max-width: 600px) {
+            max-height: 6rem;
+        }
     }
 
     h2 {
@@ -26,6 +34,10 @@
     ul {
         list-style: none;
         padding: 1rem 0;
+
+        @media (max-width: 600px) {
+            font-size: 1.4rem;
+        }
 
         li {
             padding: .5rem 0;

@@ -1,0 +1,11 @@
+.country-list-container {
+   
+    input {
+        margin: 2rem auto;
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        width: 30rem;
+        font-size: 1.6rem;
+    }
+}
