@@ -2,7 +2,7 @@ import './MapLibrary.css'
 import React, { useEffect, useState } from 'react'
 import { MapContainer, TileLayer, GeoJSON } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
-import CountryCardContainer from '../CountryCardContainer/CountryCardContainer'
+import FloatingCardContainer from '../FloatingCardContainer/FloatingCardContainer'
 
 function MapLibrary() {
 
@@ -55,7 +55,7 @@ function MapLibrary() {
         showCard && selectedCountry && (
           <div className="overlay" onClick={onCloseCard}>
             <div className="floating-card" onClick={(e) => e.stopPropagation()}>
-              <CountryCardContainer selectedCountry={selectedCountry} />
+              <FloatingCardContainer selectedCountry={selectedCountry} />
             </div>
           </div>
         )

@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
-import CountryCardContainer from './components/CountryCardContainer/CountryCardContainer'
 import MainView from './components/MainView/MainView'
 import MapLibrary from './components/MapLibrary/MapLibrary'
 import Navbar from './components/Navbar/Navbar'

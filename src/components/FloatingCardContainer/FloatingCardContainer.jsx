@@ -1,8 +1,8 @@
 import { useEffect } from "react"
 import { useState } from "react"
-import CountryCard from "../CountryCard/CountryCard"
+import FloatingCard from "../FloatingCard/FloatingCard"
 
-function CountryCardContainer ( {selectedCountry} ) {
+function FloatingCardContainer ( {selectedCountry} ) {
 
     const [data, setData] = useState()
     const [loading, setLoading] = useState(true)
@@ -19,6 +19,8 @@ function CountryCardContainer ( {selectedCountry} ) {
 
     
     const currencies = data.currencies ? Object.keys(data.currencies).map(key => data.currencies[key]) : []
+
+    const capital = data.capital.length > 1 ? data.capital.slice(0, 1) : data.capital
 
     const timezones = () => {
         if (data.timezones && data.timezones.length > 2) {
@@ -41,8 +43,9 @@ function CountryCardContainer ( {selectedCountry} ) {
     }
 
     return (
-        <CountryCard 
+        <FloatingCard 
             data={data}
+            capital={capital}
             currencies={currencies}
             timezones={timezones()}
             languages={languages()}
@@ -51,4 +54,4 @@ function CountryCardContainer ( {selectedCountry} ) {
 
 }
 
-export default CountryCardContainer
+export default FloatingCardContainer
