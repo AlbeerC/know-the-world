@@ -8,7 +8,7 @@ function MainView () {
             <div className="options">
                 <Link to='/map'>Mapa interactivo</Link>
                 <Link>Quiz</Link>
-                <Link to='/'>Aprender</Link>
+                <Link to='/countries'>Aprender</Link>
             </div>
         </main>
     )

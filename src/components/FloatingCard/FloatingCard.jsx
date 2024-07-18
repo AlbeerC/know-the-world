@@ -4,7 +4,7 @@ import numeral from 'numeral'
 function FloatingCard ( {data, currencies, timezones, languages, capital} ) {
 
     return (
-        <section className="country-card">
+        <section className="floating-card">
             <h1>{data.name.common}</h1>
             <h2> <span>* </span> Informative card <span> *</span> </h2>
             <div className="info">

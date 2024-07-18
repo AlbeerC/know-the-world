@@ -1,18 +1,24 @@
-const { useEffect } = require("react");
-const { useState } = require("react");
+import { getCapital, getCurrencies, getTimezones, getLanguages } from '../../helpers/countryProperties'
+import CountryCard from '../CountryCard/CountryCard'
 
-function CountryList () {
+function CountryList ( {data} ) {
 
-    const [data, setData] = useState(null)
-    const [loading, setLoading] = useState(true)
-
-    useEffect(() => {
-        fetch("https://restcountries.com/v3.1/all")
-            .then((response) => response.json())
-            .then((data) => setData(data))
-            .catch((error) => console.error(error))
-            .finally(() => setLoading(false))
-    }, [])
-
-
+    return (
+        <section className="country-list">
+            {data.map((country) => (
+                <CountryCard key={country.name.common}
+                    name={country.name.common}
+                    capital={getCapital(country)}
+                    currencies={getCurrencies(country)}
+                    timezones={getTimezones(country)}
+                    languages={getLanguages(country)}
+                    flag={country.flags.png}
+                    alt={country.flags.alt}
+                    population={country.population}
+                />
+            ))}
+        </section>
+    )
 }
+
+export default CountryList

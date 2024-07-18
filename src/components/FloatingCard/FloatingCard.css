@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap');
 
-.country-card {
+.floating-card {
     border-radius: 2rem;
     background-image: url(../../assets/bgpassport.png);
     background-repeat: no-repeat;
