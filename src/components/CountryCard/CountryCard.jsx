@@ -11,7 +11,7 @@ function CountryCard ( {flag, name, alt, population, languages, currencies, capi
                 <li>Capital: <span>{capital}</span></li>
                 <li>Población: <span>{numeral(population).format(0.0)}</span></li>
                 <li>Idioma/s: <span>{languages}</span></li>
-                <li>Moneda: <span>{currencies[0].symbol}  {currencies[0].name}</span></li>
+                <li>Moneda: <span>{currencies[0].name} {currencies[0].symbol}</span></li>
                 <li>Área: <span>{numeral(area).format(0,0)} km²</span></li>
             </ul>
         </section>

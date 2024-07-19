@@ -12,6 +12,6 @@
   }
   
   /* Floating Card */
-  .floating-card {
+  .floating-card-container {
     position: relative;
   }

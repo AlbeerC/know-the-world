@@ -54,7 +54,7 @@ function MapLibrary() {
       {
         showCard && selectedCountry && (
           <div className="overlay" onClick={onCloseCard}>
-            <div className="floating-card" onClick={(e) => e.stopPropagation()}>
+            <div className="floating-card-container" onClick={(e) => e.stopPropagation()}>
               <FloatingCardContainer selectedCountry={selectedCountry} />
             </div>
           </div>
