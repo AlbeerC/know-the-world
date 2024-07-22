@@ -9,7 +9,7 @@ function FloatingCardContainer ( {selectedCountry} ) {
     const [loading, setLoading] = useState(true)
 
     useEffect(() => {
-        fetch(`https://restcountries.com/v3.1/name/${selectedCountry}`)
+        fetch(`https://restcountries.com/v3.1/name/${selectedCountry}?fullText=true`)
             .then((response) => response.json())
             .then((data) => setData(data[0]))
             .catch((error) => console.log(error))
