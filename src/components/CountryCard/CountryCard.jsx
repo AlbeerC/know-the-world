@@ -4,7 +4,7 @@ import numeral from 'numeral'
 function CountryCard ( {flag, name, alt, population, languages, currencies, capital, area} ) {
 
     return (
-        <section className="country-card">
+        <div className="country-card">
             <img src={flag} alt={alt} />
             <h2>{name}</h2>
             <ul>
@@ -14,7 +14,7 @@ function CountryCard ( {flag, name, alt, population, languages, currencies, capi
                 <li>Moneda: <span>{currencies[0].name} {currencies[0].symbol}</span></li>
                 <li>Área: <span>{numeral(area).format(0,0)} km²</span></li>
             </ul>
-        </section>
+        </div>
     )
 }
 
