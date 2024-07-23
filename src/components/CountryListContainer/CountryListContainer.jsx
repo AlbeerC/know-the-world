@@ -1,6 +1,7 @@
 import './CountryListContainer.css'
 import CountryList from "../CountryList/CountryList"
 import { useState, useEffect } from "react"
+import Loading from "../../components/Loading/Loading"
 
 function CountryListContainer () {
 
@@ -57,7 +58,7 @@ function CountryListContainer () {
         return activeFilter === key ? "active" : null
     }
 
-    if (loading) return <h2>Loading...</h2>
+    if (loading) return <Loading />
 
     return (
         <section className="country-list-container">

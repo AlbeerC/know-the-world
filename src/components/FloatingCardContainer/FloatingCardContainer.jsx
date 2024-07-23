@@ -1,5 +1,6 @@
 import { useEffect } from "react"
 import { useState } from "react"
+import Loading from "../../components/Loading/Loading"
 import FloatingCard from "../FloatingCard/FloatingCard"
 import { getCurrencies, getCapital, getTimezones, getLanguages } from '../../helpers/countryProperties'
 
@@ -16,7 +17,7 @@ function FloatingCardContainer ( {selectedCountry} ) {
             .finally(() => setLoading(false))
     }, [selectedCountry])
 
-    if (loading) return <h2>Cargando...</h2>
+    if (loading) return <Loading />
 
 
     return (
