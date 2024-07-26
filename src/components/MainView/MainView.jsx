@@ -4,10 +4,10 @@ import './MainView.css'
 function MainView () {
 
     return (
-        <main>
+        <main className='main-view'>
             <div className="options">
                 <Link to='/map'>Mapa interactivo</Link>
-                <Link>Quiz</Link>
+                <Link to='/start-quiz'>Quiz</Link>
                 <Link to='/countries'>Aprender</Link>
             </div>
         </main>

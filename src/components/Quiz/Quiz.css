@@ -1,0 +1,80 @@
+.main-quiz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .quiz {
+        background-color: #e1e1e1;
+        width: 50%;
+        margin: 5rem auto;
+        padding: 1rem;
+        border-radius: 2rem;
+    
+        h3 {
+            font-size: 2.7rem;
+        }
+    
+        .options {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            row-gap: 2rem;
+            margin: 3rem 0;
+    
+            .option {
+                width: 100%;
+                display: block;
+                background-color: #ffffff;
+
+                .option-pointer {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    gap: 2rem;
+                    width: 100%;
+                    padding: .5rem 1rem;
+                    background-color: #ffffff;
+                    cursor: pointer;
+                    border: none;
+
+                    p {
+                        font-size: 2rem;
+                        padding: 0 1rem;
+                        font-weight: bold;
+
+                        &:first-child {
+                            font-size: 2.5rem;
+                            border-radius: 50%;
+                            background-color: #e1e1e1;
+                        }
+                    }
+                }
+
+                .selected {
+                    background-color: #5050506b;
+                }
+            }
+        }
+    
+        .bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            span {
+                font-size: 1.7rem;
+            }
+    
+            button {
+                background-color: #000000;
+                color: #ffffff;
+                font-size: 2rem;
+                font-weight: bold;
+                padding: .5rem 1rem;
+                border: none;
+                border-radius: 2rem;
+                cursor: pointer;
+            }
+        }
+    }
+}
