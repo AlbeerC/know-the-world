@@ -7,7 +7,7 @@ function QuizView () {
         <main className='main-quiz-view'>
             <section className="quiz-view">
                 <h2>Bienvenido al quiz</h2>
-                <p>Consta de 20 preguntas sobre distintas áreas de geografía. Al finalizar, podrás ver tu puntaje.</p>
+                <p>Consta de 10 preguntas sobre distintas áreas de geografía. Al finalizar, podrás ver tu puntaje.</p>
                 <Link to='/quiz'>Empezar quiz</Link>
             </section>
         </main>

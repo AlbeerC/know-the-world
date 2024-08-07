@@ -1,153 +1,272 @@
 [
-    {
+  {
       "question": "¿Cuál es la capital de Francia?",
       "options": ["París", "Londres", "Roma", "Berlín"],
       "correct_answer": "París"
-    },
-    {
+  },
+  {
       "question": "¿De qué país es la capital Tokio?",
       "options": ["Japón", "China", "Corea del Sur", "Tailandia"],
       "correct_answer": "Japón"
-    },
-    {
+  },
+  {
       "question": "¿Cuál de estos países tiene una mayor superficie?",
       "options": ["Rusia", "Canadá", "Estados Unidos", "Brasil"],
       "correct_answer": "Rusia"
-    },
-    {
+  },
+  {
       "question": "¿Cuál de estos países tiene una menor población?",
       "options": ["Islandia", "Luxemburgo", "Malta", "Liechtenstein"],
       "correct_answer": "Liechtenstein"
-    },
-    {
+  },
+  {
       "question": "¿Cuál es la capital de Australia?",
       "options": ["Canberra", "Sídney", "Melbourne", "Brisbane"],
       "correct_answer": "Canberra"
-    },
-    {
+  },
+  {
       "question": "¿De qué país es la capital Ottawa?",
       "options": ["Canadá", "Estados Unidos", "México", "Australia"],
       "correct_answer": "Canadá"
-    },
-    {
+  },
+  {
       "question": "¿Cuál de estos países tiene más habitantes?",
       "options": ["China", "India", "Estados Unidos", "Indonesia"],
       "correct_answer": "China"
-    },
-    {
+  },
+  {
       "question": "¿Cuál es la capital de Brasil?",
       "options": ["Brasilia", "Río de Janeiro", "Sao Paulo", "Salvador"],
       "correct_answer": "Brasilia"
-    },
-    {
+  },
+  {
       "question": "¿Cuál de estos países tiene la mayor cantidad de islas?",
       "options": ["Suecia", "Noruega", "Indonesia", "Filipinas"],
       "correct_answer": "Suecia"
-    },
-    {
+  },
+  {
       "question": "¿Cuál es el país más grande de África por superficie?",
       "options": ["Argelia", "Sudán", "República Democrática del Congo", "Libia"],
       "correct_answer": "Argelia"
-    },
-    {
+  },
+  {
       "question": "¿Cuál es la capital de Canadá?",
       "options": ["Ottawa", "Toronto", "Montreal", "Vancouver"],
       "correct_answer": "Ottawa"
-    },
-    {
+  },
+  {
       "question": "¿Cuál de estos países no tiene salida al mar?",
       "options": ["Paraguay", "Uruguay", "Chile", "Ecuador"],
       "correct_answer": "Paraguay"
-    },
-    {
+  },
+  {
       "question": "¿Cuál es la capital de Egipto?",
       "options": ["El Cairo", "Alejandría", "Giza", "Luxor"],
       "correct_answer": "El Cairo"
-    },
-    {
+  },
+  {
       "question": "¿Cuál de estos países tiene una menor superficie?",
       "options": ["Vaticano", "Mónaco", "San Marino", "Liechtenstein"],
       "correct_answer": "Vaticano"
-    },
-    {
+  },
+  {
       "question": "¿Cuál es el país más poblado de Europa?",
       "options": ["Rusia", "Alemania", "Francia", "Reino Unido"],
       "correct_answer": "Rusia"
-    },
-    {
-        "question": "¿Cuál es el país con más husos horarios?",
-        "options": ["Francia", "Rusia", "Estados Unidos", "China"],
-        "correct_answer": "Francia"
-      },
-      {
-        "question": "¿Cuál es la cordillera más larga del mundo?",
-        "options": ["Los Andes", "Los Alpes", "Las Montañas Rocosas", "El Himalaya"],
-        "correct_answer": "Los Andes"
-      },
-      {
-        "question": "¿Cuál es el río más largo de África?",
-        "options": ["Nilo", "Congo", "Niger", "Zambezi"],
-        "correct_answer": "Nilo"
-      },
-      {
-        "question": "¿Cuál es el lago más profundo del mundo?",
-        "options": ["Baikal", "Tanganica", "Victoria", "Superior"],
-        "correct_answer": "Baikal"
-      },
-      {
-        "question": "¿Cuál es el desierto más grande del mundo?",
-        "options": ["Sahara", "Antártico", "Gobi", "Kalahari"],
-        "correct_answer": "Antártico"
-      },
-      {
-        "question": "¿Cuál es el país más grande de Oceanía?",
-        "options": ["Australia", "Papúa Nueva Guinea", "Nueva Zelanda", "Fiji"],
-        "correct_answer": "Australia"
-      },
-      {
-        "question": "¿Cuál es el país con la mayor cantidad de volcanes activos?",
-        "options": ["Indonesia", "Japón", "Estados Unidos", "Islandia"],
-        "correct_answer": "Indonesia"
-      },
-      {
-        "question": "¿Cuál es la cascada más alta del mundo?",
-        "options": ["Salto Ángel", "Niágara", "Victoria", "Iguazú"],
-        "correct_answer": "Salto Ángel"
-      },
-      {
-        "question": "¿Cuál es el país con más islas en el mundo?",
-        "options": ["Suecia", "Indonesia", "Filipinas", "Noruega"],
-        "correct_answer": "Suecia"
-      },
-      {
-        "question": "¿Cuál es el golfo más grande del mundo?",
-        "options": ["Golfo de México", "Golfo de Alaska", "Golfo de Bengala", "Golfo Pérsico"],
-        "correct_answer": "Golfo de Bengala"
-      },
-      {
-        "question": "¿En qué país se encuentra el punto más bajo de la Tierra en tierra firme?",
-        "options": ["Israel", "Jordania", "Siria", "Egipto"],
-        "correct_answer": "Israel"
-      },
-      {
-        "question": "¿Cuál es la cadena montañosa más alta de América del Norte?",
-        "options": ["Montañas Rocosas", "Sierra Nevada", "Appalachians", "Brooks Range"],
-        "correct_answer": "Montañas Rocosas"
-      },
-      {
-        "question": "¿Cuál es el río más caudaloso del mundo?",
-        "options": ["Amazonas", "Nilo", "Yangtsé", "Mississippi"],
-        "correct_answer": "Amazonas"
-      },
-      {
-        "question": "¿Cuál es la península más grande del mundo?",
-        "options": ["Península Arábiga", "Península Ibérica", "Península Indochina", "Península Escandinava"],
-        "correct_answer": "Península Arábiga"
-      },
-      {
-        "question": "¿En qué continente se encuentra el país con más idiomas oficiales?",
-        "options": ["África", "Asia", "Europa", "América del Sur"],
-        "correct_answer": "África"
-      }
+  },
+  {
+      "question": "¿Cuál es el país con más husos horarios?",
+      "options": ["Francia", "Rusia", "Estados Unidos", "China"],
+      "correct_answer": "Francia"
+  },
+  {
+      "question": "¿Cuál es la cordillera más larga del mundo?",
+      "options": ["Los Andes", "Los Alpes", "Las Montañas Rocosas", "El Himalaya"],
+      "correct_answer": "Los Andes"
+  },
+  {
+      "question": "¿Cuál es el río más largo de África?",
+      "options": ["Nilo", "Congo", "Niger", "Zambezi"],
+      "correct_answer": "Nilo"
+  },
+  {
+      "question": "¿Cuál es el lago más profundo del mundo?",
+      "options": ["Baikal", "Tanganica", "Victoria", "Superior"],
+      "correct_answer": "Baikal"
+  },
+  {
+      "question": "¿Cuál es el desierto más grande del mundo?",
+      "options": ["Sahara", "Antártico", "Gobi", "Kalahari"],
+      "correct_answer": "Antártico"
+  },
+  {
+      "question": "¿Cuál es el país más grande de Oceanía?",
+      "options": ["Australia", "Papúa Nueva Guinea", "Nueva Zelanda", "Fiji"],
+      "correct_answer": "Australia"
+  },
+  {
+      "question": "¿Cuál es el país con la mayor cantidad de volcanes activos?",
+      "options": ["Indonesia", "Japón", "Estados Unidos", "Islandia"],
+      "correct_answer": "Indonesia"
+  },
+  {
+      "question": "¿Cuál es la cascada más alta del mundo?",
+      "options": ["Salto Ángel", "Niágara", "Victoria", "Iguazú"],
+      "correct_answer": "Salto Ángel"
+  },
+  {
+      "question": "¿Cuál es el país con más islas en el mundo?",
+      "options": ["Suecia", "Indonesia", "Filipinas", "Noruega"],
+      "correct_answer": "Suecia"
+  },
+  {
+      "question": "¿Cuál es el golfo más grande del mundo?",
+      "options": ["Golfo de México", "Golfo de Alaska", "Golfo de Bengala", "Golfo Pérsico"],
+      "correct_answer": "Golfo de Bengala"
+  },
+  {
+      "question": "¿En qué país se encuentra el punto más bajo de la Tierra en tierra firme?",
+      "options": ["Israel", "Jordania", "Siria", "Egipto"],
+      "correct_answer": "Israel"
+  },
+  {
+      "question": "¿Cuál es la cadena montañosa más alta de América del Norte?",
+      "options": ["Montañas Rocosas", "Sierra Nevada", "Appalachians", "Brooks Range"],
+      "correct_answer": "Montañas Rocosas"
+  },
+  {
+      "question": "¿Cuál es el río más caudaloso del mundo?",
+      "options": ["Amazonas", "Nilo", "Yangtsé", "Mississippi"],
+      "correct_answer": "Amazonas"
+  },
+  {
+      "question": "¿Cuál es la península más grande del mundo?",
+      "options": ["Península Arábiga", "Península Ibérica", "Península Indochina", "Península Escandinava"],
+      "correct_answer": "Península Arábiga"
+  },
+  {
+      "question": "¿En qué continente se encuentra el país con más idiomas oficiales?",
+      "options": ["África", "Asia", "Europa", "América del Sur"],
+      "correct_answer": "África"
+  },
+  {
+      "question": "¿Cuál es la capital de Portugal?",
+      "options": ["Lisboa", "Oporto", "Coímbra", "Braga"],
+      "correct_answer": "Lisboa"
+  },
+  {
+      "question": "¿Cuál es el pico más alto de Europa?",
+      "options": ["Elbrús", "Mont Blanc", "Matterhorn", "Grossglockner"],
+      "correct_answer": "Elbrús"
+  },
+  {
+      "question": "¿Cuál es el océano más grande del mundo?",
+      "options": ["Pacífico", "Atlántico", "Índico", "Ártico"],
+      "correct_answer": "Pacífico"
+  },
+  {
+      "question": "¿Cuál es la capital de Sudáfrica?",
+      "options": ["Pretoria", "Ciudad del Cabo", "Johannesburgo", "Durban"],
+      "correct_answer": "Pretoria"
+  },
+  {
+      "question": "¿Cuál es la mayor cadena montañosa de Asia?",
+      "options": ["Himalaya", "Karakórum", "Hindú Kush", "Altái"],
+      "correct_answer": "Himalaya"
+  },
+  {
+      "question": "¿Cuál es el país más pequeño del mundo por superficie?",
+      "options": ["Ciudad del Vaticano", "Mónaco", "Nauru", "San Marino"],
+      "correct_answer": "Ciudad del Vaticano"
+  },
+  {
+      "question": "¿Cuál es el río más largo de Europa?",
+      "options": ["Volga", "Danubio", "Rin", "Dniéper"],
+      "correct_answer": "Volga"
+  },
+  {
+      "question": "¿Cuál es el punto más alto de América del Sur?",
+      "options": ["Aconcagua", "Ojos del Salado", "Huascarán", "Chimborazo"],
+      "correct_answer": "Aconcagua"
+  },
+  {
+      "question": "¿En qué país se encuentra el Monte Everest?",
+      "options": ["Nepal", "China", "India", "Bután"],
+      "correct_answer": "Nepal"
+  },
+  {
+      "question": "¿Cuál es el país con más habitantes de África?",
+      "options": ["Nigeria", "Etiopía", "Egipto", "Sudáfrica"],
+      "correct_answer": "Nigeria"
+  },
+  {
+      "question": "¿Cuál es la capital de Nueva Zelanda?",
+      "options": ["Wellington", "Auckland", "Christchurch", "Hamilton"],
+      "correct_answer": "Wellington"
+  },
+  {
+      "question": "¿Cuál es el océano más pequeño del mundo?",
+      "options": ["Ártico", "Atlántico", "Índico", "Pacífico"],
+      "correct_answer": "Ártico"
+  },
+  {
+      "question": "¿Cuál es la capital de Noruega?",
+      "options": ["Oslo", "Bergen", "Trondheim", "Stavanger"],
+      "correct_answer": "Oslo"
+  },
+  {
+      "question": "¿Cuál es el desierto más seco del mundo?",
+      "options": ["Atacama", "Sahara", "Gobi", "Kalahari"],
+      "correct_answer": "Atacama"
+  },
+  {
+      "question": "¿Cuál es el continente con más países?",
+      "options": ["África", "Asia", "Europa", "América del Sur"],
+      "correct_answer": "África"
+  },
+  {
+      "question": "¿Cuál es el mar más grande del mundo?",
+      "options": ["Mar de Filipinas", "Mar Arábigo", "Mar del Coral", "Mar de China Meridional"],
+      "correct_answer": "Mar de Filipinas"
+  },
+  {
+      "question": "¿Cuál es la capital de Vietnam?",
+      "options": ["Hanoi", "Ho Chi Minh", "Da Nang", "Hue"],
+      "correct_answer": "Hanoi"
+  },
+  {
+      "question": "¿En qué país se encuentra la Torre Eiffel?",
+      "options": ["Francia", "Italia", "España", "Alemania"],
+      "correct_answer": "Francia"
+  },
+  {
+      "question": "¿Cuál es la isla más grande del mundo?",
+      "options": ["Groenlandia", "Nueva Guinea", "Borneo", "Madagascar"],
+      "correct_answer": "Groenlandia"
+  },
+  {
+      "question": "¿Cuál es el país más grande de América del Sur?",
+      "options": ["Brasil", "Argentina", "Perú", "Colombia"],
+      "correct_answer": "Brasil"
+  },
+  {
+      "question": "¿Cuál es el lago más grande de África?",
+      "options": ["Victoria", "Tanganica", "Malawi", "Chad"],
+      "correct_answer": "Victoria"
+  },
+  {
+      "question": "¿Cuál es la capital de India?",
+      "options": ["Nueva Delhi", "Mumbai", "Kolkata", "Bangalore"],
+      "correct_answer": "Nueva Delhi"
+  },
+  {
+      "question": "¿Cuál es el país con más ríos?",
+      "options": ["Brasil", "Rusia", "Estados Unidos", "China"],
+      "correct_answer": "Brasil"
+  },
+  {
+      "question": "¿Cuál es la montaña más alta de América del Norte?",
+      "options": ["Denali", "Mount Logan", "Pico de Orizaba", "Mount Saint Elias"],
+      "correct_answer": "Denali"
+  }
 ]
-  

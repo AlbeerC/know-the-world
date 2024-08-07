@@ -45,15 +45,17 @@ function QuizLogic () {
         return selectedOption === correctAnswer
     }
 
-    const submitAnswer = () => {
-        setIndexQuestion(indexQuestion + 1)
-        if (isCorrect) { corrects + 1 }
-        getNextQuestion()
+    const submitAnswer = (selectedOption) => {
+        if (selectedOption !== null) {
+            if (isCorrect(selectedOption, data[indexQuestion].correct_answer)) {
+                setCorrects((prev) => prev + 1)
+            }
+            getNextQuestion()
+        }
     }
 
-
-    const showResult = () => {
-
+    const startAgain = () => {
+        setIndexQuestion(1)
     }
 
     if (loading) return <Loading />
@@ -65,6 +67,8 @@ function QuizLogic () {
             indexQuestion={indexQuestion} 
             submitAnswer={submitAnswer}
             options={shuffledOptions}
+            corrects={corrects}
+            startAgain={startAgain}
         />
     )
 }

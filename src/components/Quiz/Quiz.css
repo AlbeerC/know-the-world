@@ -9,9 +9,61 @@
         margin: 5rem auto;
         padding: 1rem;
         border-radius: 2rem;
+
+        @media(max-width: 768px) {
+            width: 90%;
+        }
+
+        .results {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+            padding: 1rem 0;
+
+            h2 {
+                font-family: "K2D";
+                font-weight: bold;
+                font-size: 3rem;
+                margin-bottom: 4rem;
+
+                @media (max-width: 768px) {
+                    font-size: 2rem;
+                }
+            }
+
+            p {
+                font-weight: bold;
+                font-size: 2rem;
+
+                .green {
+                    color: green;
+                }
+
+                .red {
+                    color: red;
+                }
+            }
+
+            button {
+                background-color: #000000;
+                color: #ffffff;
+                font-size: 2rem;
+                font-weight: bold;
+                padding: .5rem 1rem;
+                border: none;
+                border-radius: 2rem;
+                cursor: pointer;
+                margin-top: 4rem;
+            }
+        }
     
         h3 {
             font-size: 2.7rem;
+
+            @media (max-width: 768px) {
+                font-size: 2rem;
+            }
         }
     
         .options {
