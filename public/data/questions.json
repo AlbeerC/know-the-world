@@ -165,9 +165,9 @@
       "correct_answer": "Pacífico"
   },
   {
-      "question": "¿Cuál es la capital de Sudáfrica?",
-      "options": ["Pretoria", "Ciudad del Cabo", "Johannesburgo", "Durban"],
-      "correct_answer": "Pretoria"
+      "question": "¿Cuántas capitales oficiales tiene Sudáfrica?",
+      "options": ["1", "2", "3", "4"],
+      "correct_answer": "3"
   },
   {
       "question": "¿Cuál es la mayor cadena montañosa de Asia?",
@@ -268,5 +268,220 @@
       "question": "¿Cuál es la montaña más alta de América del Norte?",
       "options": ["Denali", "Mount Logan", "Pico de Orizaba", "Mount Saint Elias"],
       "correct_answer": "Denali"
-  }
+  },
+  {
+    "question": "¿Cuál es el país con mayor diversidad de especies en el mundo?",
+    "options": ["Brasil", "Indonesia", "Colombia", "Perú"],
+    "correct_answer": "Brasil"
+   },
+   {
+    "question": "¿En qué continente se encuentra el desierto del Sahara?",
+    "options": ["Asia", "África", "América del Sur", "Oceanía"],
+    "correct_answer": "África"
+   },
+   {
+    "question": "¿Cuál es la capital de México?",
+    "options": ["Ciudad de México", "Guadalajara", "Monterrey", "Puebla"],
+    "correct_answer": "Ciudad de México"
+   },
+   {
+    "question": "¿En qué país se encuentra la Gran Barrera de Coral?",
+    "options": ["Australia", "Nueva Zelanda", "Indonesia", "Filipinas"],
+    "correct_answer": "Australia"
+   },
+   {
+    "question": "¿Cuál es el país más pequeño de Europa?",
+    "options": ["Vaticano", "Mónaco", "San Marino", "Liechtenstein"],
+    "correct_answer": "Vaticano"
+   },
+   {
+    "question": "¿Cuál es la capital de Argentina?",
+    "options": ["Buenos Aires", "Córdoba", "Rosario", "Mendoza"],
+    "correct_answer": "Buenos Aires"
+   },
+   {
+    "question": "¿En qué continente se encuentra el Himalaya?",
+    "options": ["Asia", "Europa", "América del Norte", "África"],
+    "correct_answer": "Asia"
+   },
+   {
+    "question": "¿Cuál es el país con más lagos en el mundo?",
+    "options": ["Canadá", "Finlandia", "Rusia", "Suecia"],
+    "correct_answer": "Canadá"
+   },
+   {
+    "question": "¿Cuál es la capital de España?",
+    "options": ["Madrid", "Barcelona", "Valencia", "Sevilla"],
+    "correct_answer": "Madrid"
+   },
+   {
+    "question": "¿En qué continente se encuentra la Antártida?",
+    "options": ["América del Sur", "Asia", "Oceanía", "Ninguno de los anteriores"],
+    "correct_answer": "Ninguno de los anteriores"
+   },
+   {
+    "question": "¿Cuál es el país con mayor extensión de selva amazónica?",
+    "options": ["Brasil", "Perú", "Colombia", "Bolivia"],
+    "correct_answer": "Brasil"
+   },
+   {
+    "question": "¿Cuál es la capital de China?",
+    "options": ["Pekín", "Shanghái", "Cantón", "Chongqing"],
+    "correct_answer": "Pekín"
+   },
+   {
+    "question": "¿En qué continente se encuentra el desierto del Gobi?",
+    "options": ["Asia", "África", "América del Norte", "Oceanía"],
+    "correct_answer": "Asia"
+   },
+  {
+    "question": "¿Cuál es la capital de Egipto?",
+    "options": ["El Cairo", "Alejandría", "Giza", "Luxor"],
+    "correct_answer": "El Cairo"
+  },
+  {
+    "question": "¿Cuál es la capital de Rusia?",
+    "options": ["Moscú", "San Petersburgo", "Novosibirsk", "Ekaterimburgo"],
+    "correct_answer": "Moscú"
+  },
+  {
+    "question": "¿Cuál es la capital de Bahamas?",
+    "options": ["Nassau", "Freeport", "George Town", "Marsh Harbour"],
+    "correct_answer": "Nassau"
+  },
+  {
+    "question": "¿Cuál es la capital de Argelia?",
+    "options": ["Argel", "Orán", "Constantina", "Annaba"],
+    "correct_answer": "Argel"
+  },
+  {
+    "question": "¿Cuál es la capital de Escocia?",
+    "options": ["Edimburgo", "Glasgow", "Aberdeen", "Dundee"],
+    "correct_answer": "Edimburgo"
+  },
+  {
+    "question": "¿Cuántos países forman el Reino Unido?",
+    "options": ["4", "3", "5", "6"],
+    "correct_answer": "4"
+  },
+  {
+    "question": "¿Cuál de estos países tiene una superficie mayor?",
+    "options": ["Rusia", "Canadá", "Estados Unidos", "Brasil"],
+    "correct_answer": "Rusia"
+  },
+  {
+    "question": "¿Cuál de estos países tiene una superficie mayor?",
+    "options": ["Australia", "India", "Argentina", "Kazajistán"],
+    "correct_answer": "Australia"
+  },
+  {
+    "question": "¿En qué continente se encuentra Nueva Zelanda?",
+    "options": ["Oceanía", "Asia", "América del Sur", "África"],
+    "correct_answer": "Oceanía"
+  },
+  {
+    "question": "¿En qué continente se encuentra Marruecos?",
+    "options": ["África", "Asia", "Europa", "América del Sur"],
+    "correct_answer": "África"
+  },
+  {
+    "question": "¿En qué continente se encuentra Colombia?",
+    "options": ["América del Sur", "América del Norte", "Europa", "Asia"],
+    "correct_answer": "América del Sur"
+  },
+  {
+    "question": "¿En qué continente se encuentra Indonesia?",
+    "options": ["Asia", "Oceanía", "África", "Europa"],
+    "correct_answer": "Asia"
+  },
+  {
+    "question": "¿En qué continente se encuentra Finlandia?",
+    "options": ["Europa", "Asia", "América del Norte", "África"],
+    "correct_answer": "Europa"
+  },
+  {
+    "question": "¿En qué continente se encuentra Libia?",
+    "options": ["África", "Asia", "Europa", "América del Sur"],
+    "correct_answer": "África"
+  },
+  {
+    "question": "¿En qué continente se encuentra Estonia?",
+    "options": ["Europa", "Asia", "África", "América del Norte"],
+    "correct_answer": "Europa"
+  },
+  {
+    "question": "¿Qué color predomina en la bandera de Finlandia?",
+    "options": ["Blanco", "Azul", "Rojo", "Verde"],
+    "correct_answer": "Blanco"
+  },
+  {
+    "question": "¿Qué color predomina en la bandera de España?",
+    "options": ["Rojo", "Amarillo", "Blanco", "Azul"],
+    "correct_answer": "Rojo"
+  },
+  {
+    "question": "¿Qué color predomina en la bandera de Japón?",
+    "options": ["Blanco", "Rojo", "Negro", "Azul"],
+    "correct_answer": "Blanco"
+  },
+  {
+    "question": "¿Qué color predomina en la bandera de Brasil?",
+    "options": ["Verde", "Amarillo", "Azul", "Blanco"],
+    "correct_answer": "Verde"
+  },
+  {
+    "question": "¿Qué color predomina en la bandera de Dinamarca?",
+    "options": ["Rojo", "Blanco", "Azul", "Negro"],
+    "correct_answer": "Rojo"
+  },
+  {
+    "question": "¿Qué color predomina en la bandera de Suecia?",
+    "options": ["Azul", "Amarillo", "Blanco", "Verde"],
+    "correct_answer": "Azul"
+  },
+  {
+    "question": "¿En qué océano tiene costa Perú?",
+    "options": ["Océano Pacífico", "Océano Atlántico", "Océano Índico", "Mar Caribe"],
+    "correct_answer": "Océano Pacífico"
+  },
+  {
+    "question": "¿En qué océano tiene costa Noruega?",
+    "options": ["Océano Atlántico", "Océano Ártico", "Océano Pacífico", "Mar del Norte"],
+    "correct_answer": "Océano Atlántico"
+  },
+  {
+    "question": "¿En qué océano tiene costa Australia?",
+    "options": ["Océano Índico", "Océano Pacífico", "Océano Atlántico", "Mar de Coral"],
+    "correct_answer": "Océano Índico"
+  },
+  {
+    "question": "¿En qué océano tiene costa Angola?",
+    "options": ["Océano Atlántico", "Océano Índico", "Océano Pacífico", "Mar Rojo"],
+    "correct_answer": "Océano Atlántico"
+  },
+  {
+    "question": "¿En qué océano tiene costa Indonesia?",
+    "options": ["Océano Índico", "Océano Pacífico", "Océano Atlántico", "Mar de Java"],
+    "correct_answer": "Océano Índico"
+  },
+  {
+    "question": "¿En qué océano tiene costa Chile?",
+    "options": ["Océano Pacífico", "Océano Atlántico", "Océano Índico", "Mar del Sur"],
+    "correct_answer": "Océano Pacífico"
+  },
+  {
+    "question": "¿Cuántas provincias tiene Argentina?",
+    "options": ["23", "24", "22", "25"],
+    "correct_answer": "23"
+   },
+   {
+    "question": "¿Cuál es el pico más alto de Argentina?",
+    "options": ["Aconcagua", "Cerro Bonete", "Nevado Ojos del Salado", "Cerro Mercedario"],
+    "correct_answer": "Aconcagua"
+   },
+   {
+    "question": "¿Cuál es el río más largo de Argentina?",
+    "options": ["Río Paraná", "Río Uruguay", "Río de la Plata", "Río Colorado"],
+    "correct_answer": "Río Paraná"
+   }
 ]

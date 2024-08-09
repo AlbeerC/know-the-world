@@ -56,6 +56,7 @@ function QuizLogic () {
 
     const startAgain = () => {
         setIndexQuestion(1)
+        setCorrects(0)
     }
 
     if (loading) return <Loading />

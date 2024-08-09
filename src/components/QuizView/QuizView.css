@@ -15,6 +15,10 @@
         gap: 5rem;
         text-align: center;
         border-radius: 2rem;
+
+        @media (max-width: 768px) {
+            width: 90%;
+        }
     
         h2 {
             font-family: "K2D";
