@@ -13,6 +13,7 @@
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
+    "@google-cloud/translate": "^8.5.0",
     "framer-motion": "^11.3.12",
     "leaflet": "^1.9.4",
     "numeral": "^2.0.6",

@@ -16,6 +16,7 @@ function CountryList ( {data} ) {
                     alt={country.flags.alt}
                     population={country.population}
                     area={country.area}
+                    
                 />
             ))}
         </section>
